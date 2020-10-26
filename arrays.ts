@@ -15,7 +15,7 @@ const carMaker2 = carMakers.pop();
 carMakers.push(100);
 
 // Help with 'map'
-carMakers.map((car: string): string => {
+carMakers.map((car): string => {
   return car.toLowerCase();
 });
 
